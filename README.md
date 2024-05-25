@@ -16,8 +16,8 @@ This is a simple React application that demonstrates how to use the `@tanstack/r
 
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/techboydk/react-query.git
+   cd react-query
    ```
 
 2. Install the dependencies:
