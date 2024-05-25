@@ -1,7 +1,4 @@
-# react-query
-# React + Vite
-
-# My Posts Application
+# My Posts Application (react query)
 
 This is a simple React application that demonstrates how to use the `@tanstack/react-query` library to manage server state in a React application. The application allows users to view posts and tags, and add new posts with associated tags.
 
