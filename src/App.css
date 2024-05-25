@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 15px;
+    text-transform: uppercase;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 10px;
+}
+
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+.form > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    background: #ddd;
+    border-radius: 10px;
+    width: fit-content;
+    gap: 1rem;
+    flex: 1;
+}
+
+.form > form > input{
+    display: flex;
+    padding: 10px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form > form > button{
+    width: fit-content;
+    align-self: center;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    background: #eee;
+    cursor: pointer;
+}
+.form > form > .tags {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+    user-select: none;
+}
+.form > form > .tags > .tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .25rem;
+    cursor: pointer;
+    padding: 5px;
+}
+.form > form > .tags > .tag > input, label{
+    cursor: pointer;
+}
+.post{
+    display: flex;
+    padding: 10px;
+    background: #ddd;
+    border-radius: 5px;
+    gap: 1rem;
+    align-items: center;
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
